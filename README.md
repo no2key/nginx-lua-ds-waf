@@ -17,7 +17,7 @@ Add the config below to the http seg in nginx.conf:
 
     lua_package_path "/u/nginx/lua/ds_waf/?.lua;;";
     init_by_lua_file lua/ds_waf/init.lua;
-    access_by_lua_file lua/ds_waf/main.lua;
+    access_by_lua_file lua/ds_waf/waf.lua;
     
 
 WAF相关的配置在config.lua中，需要保证nginx的worker process对日志文件有读写权限
