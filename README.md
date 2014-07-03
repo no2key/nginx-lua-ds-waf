@@ -1,7 +1,7 @@
 nginx-lua-ds-waf
 ================
 
-基于nginx和lua的WAF系统
+基于openresty/lua-nginx-module的WAF系统
 
 A WAF based on openresty/lua-nginx-module
 
